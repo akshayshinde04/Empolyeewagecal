@@ -4,15 +4,16 @@ public class Employeewagecal {
 	public static void main(String[] args) { 
 		
 		
-		int num = (int)(Math.random()*10 % 2);
-
-		if(num == 1)
-		
-			System.out.println("employee is present");
-		
-		else 
+		int wage_per_hour = 20;
+     	int full_day = 8;
+	    int Cal = wage_per_hour * full_day;
+	    System.out.println(Cal);
 	
-			System.out.println("employee is not present");
+		
+       int part_time_hour = 4;             
+       wage_per_hour = 20;
+	   Cal = part_time_hour * wage_per_hour  ;
+	    System.out.println(Cal);
 		
 		
 		
